@@ -2,7 +2,7 @@
 
 ## Links and Resources
 submission PR
-ci/cd (GitHub Actions)
+ci/cd (GitHub Actions) https://github.com/401-advanced-javascript-Mai/Async/actions
 
 ## Setup
 run npm i
