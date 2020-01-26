@@ -1,15 +1,15 @@
 # AsyncAuthor: mai alshagarin 
 
-Links and Resources
+## Links and Resources
 submission PR
 ci/cd (GitHub Actions)
 
-Setup
+## Setup
 run npm i
 
-How to initialize/run your application (where applicable)
+## How to initialize/run your application (where applicable)
 run npm test to check all test.
 
-Tests
+## Tests
 How do you run tests?
 run npm test
