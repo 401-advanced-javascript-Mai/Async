@@ -1,12 +1,15 @@
 'use strict';
-
+//// puts the empty object on the exports object named exports and then you can attach stuff directly to that 
 module.exports = exports = {};
 
-exports.readFile = (file, cb) => {
+//  representation of what we want to do "mock"
+
+exports.readFile = (file, callback) => {
   if( file.match(/bad/i) ) {
-    cb('Invalid File');
+    // the first parameter one parameter which mean is wrong  
+    callback('Invalid File (mockfile)');
   }
   else {
-    cb(undefined, new Buffer('File Contents'));
+    callback(undefined, new Buffer('File Contents'));
   }
 };
